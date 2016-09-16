@@ -1,27 +1,125 @@
-<!DOCTYPE HTML>
-<html lang="en-US">
+<!DOCTYPE html>
+<!-- Adapted template from Quackit.com -->
+<html lang="en">
 <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <title>hainm.github.io</title>
-    <link rel="stylesheet" href="css/index.css">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hai Nguyen</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
+    <link href="css/index.css" rel="stylesheet">
 </head>
+
 <body>
+
+    <!-- Navigation -->
     <nav>
-        <a href=https://github.com/hainm/ >github</a>
-        <a href=https://twitter.com/hainm_comp >twitter</a>
-        <a href=https://scholar.google.com/citations?user=wYrTQcMAAAAJ&hl=en >publications</a>
+        <div class="container">
+            <!-- Navbar links -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href=https://github.com/hainm/ >github</a>
+                    </li>
+                    <li>
+                        <a href=https://twitter.com/hainm_comp >twitter</a>
+                    </li>
+                    <li class="active">
+                        <a href=https://scholar.google.com/citations?user=wYrTQcMAAAAJ&hl=en >publications</a>
+                    </li>
+                    <li class="active">
+                        <a href=./cv_long.pdf>CV</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
     </nav>
-    <nav>
-        CV
-        <a href=./cv.pdf>short</a>
-        -
-        <a href=./cv_long.pdf>long</a>
-    </nav>
-    <nav>
-        <a href=http://amber-md.github.io/pytraj/ >pytraj</a>
-        <a href=http://arose.github.io/nglview/dev/ >nglview</a>
-    </nav>
+
+    <!-- Content -->
+    <div class="container">
+
+        <!-- Heading -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header">Softwares
+                    <small>I wrote</small>
+                </h1>
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <!-- Projects Row -->
+        <div class="row">
+            <div class="col-md-6 portfolio-item">
+                <h3>
+                    <a href=http://amber-md.github.io/pytraj/ >pytraj</a>
+                </h3>
+                <p>A Python package for interactive data analysis for molecular dynamics simulations</p>
+            </div>
+            <div class="col-md-6 portfolio-item">
+                <h3>
+                    <a href=https://github.com/Amber-MD/pymdgx>pymdgx</a>
+                </h3>
+                <p>A Python package binding to mdgx, a simulation package</p>
+            </div>
+            <div class="col-md-6 portfolio-item">
+                <h3>
+                    <a href=http://arose.github.io/nglview/dev/ >nglview</a>
+                </h3>
+                <p>An IPython widget to interactively view molecular structures and trajectories</p>
+            </div>
+        </div>
+        <!-- /.row -->
+
+    </div>
+    <!-- /.container -->
+
+    <div class="container">
+
+        <!-- Heading -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header">Softwares
+                    <small>I contribute</small>
+                </h1>
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <!-- Projects Row -->
+        <div class="row">
+            <div class="col-md-6 portfolio-item">
+                <h3>
+                    <a href=https://github.com/Amber-MD/cpptraj>cpptraj</a>
+                </h3>
+                <p>CPPTRAJ is a program designed to load and analyze molecular dynamics trajectories and relevant data sets derived from their analysis </p>
+            </div>
+            <div class="col-md-6 portfolio-item">
+                <h3>
+                    <a href=https://github.com/ParmEd/ParmEd>ParmEd</a>
+                </h3>
+                <p>Cross-program parameter and topology file editor and molecular mechanical simulator engine</p>
+            </div>
+            <div class="col-md-6 portfolio-item">
+                <h3>
+                    <a href=https://github.com/Amber-MD/mdsrv>mdsrv</a>
+                </h3>
+                <p>MD trajectory server for visualization</p>
+            </div>
+            <div class="col-md-6 portfolio-item">
+                <h3>
+                    <a href=https://github.com/Amber-MD/mdsrv://github.com/MDAnalysis/mdanalysis>MDAnalysis</a>
+                </h3>
+                <p>A Python library to analyze molecular dynamics trajectories</p>
+            </div>
+        </div>
+        <!-- /.row -->
+
+    </div>
+    <!-- /.container -->
 </body>
+
 </html>
